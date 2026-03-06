@@ -1,0 +1,26 @@
+<?php
+
+return array(
+    'Files' => 'Dateien',
+    'Description' => 'Beschreibung',
+    'Due date' => 'Fälligkeitsdatum',
+    'Upload file' => 'Datei hochladen',
+    'Upload new file' => 'Neue Datei hochladen',
+    'Upload' => 'Hochladen',
+    'Download' => 'Herunterladen',
+    'Remove' => 'Entfernen',
+    'Are you sure?' => 'Sicher?',
+    'Back to task' => 'Zurück zur Aufgabe',
+    'No files attached.' => 'Keine Dateien angehängt.',
+    'File(s) uploaded successfully.' => 'Datei(en) erfolgreich hochgeladen.',
+    'File removed successfully.' => 'Datei erfolgreich entfernt.',
+    'Files for subtask: %s' => 'Dateien für Teilaufgabe: %s',
+    'Upload file for subtask: %s' => 'Datei hochladen für Teilaufgabe: %s',
+    'Add description...' => 'Beschreibung hinzufügen...',
+    'Material, details, notes...' => 'Material, Details, Notizen...',
+    'Attached files' => 'Angehängte Dateien',
+    '%d file(s)' => '%d Datei(en)',
+    'Adds file attachments, description and due date to subtasks.' => 'Fügt Dateianhänge, Beschreibung und Fälligkeitsdatum zu Teilaufgaben hinzu.',
+    'Save' => 'Speichern',
+    'Cancel' => 'Abbrechen',
+);

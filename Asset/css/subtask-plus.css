@@ -1,0 +1,52 @@
+/* SubtaskPlus - Extra columns */
+.sp-col-files { width: 50px; text-align: center; }
+.sp-col-desc  { width: 30px; text-align: center; }
+.sp-col-due   { width: 90px; text-align: center; }
+
+.sp-col-files a { text-decoration: none; }
+.sp-upload-link { color: #999; }
+.sp-upload-link:hover { color: #333; }
+
+/* Due date badges */
+.sp-due { color: #3498db; font-size: 0.85em; }
+.sp-overdue { color: #e74c3c; font-weight: bold; font-size: 0.85em; }
+
+/* Files list page */
+.sp-description-box {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+.sp-due-box {
+    margin-bottom: 15px;
+    padding: 8px 12px;
+    background: #eef6ff;
+    border-radius: 4px;
+}
+.sp-upload-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+.sp-back { margin-top: 15px; }
+
+/* Form extras */
+.sp-extra-fields { margin-top: 10px; }
+.sp-extra-fields label { display: block; font-weight: bold; margin-top: 8px; }
+.sp-extra-fields textarea { width: 100%; }
+
+/* File list in edit form */
+.sp-file-list { list-style: none; padding: 0; margin: 5px 0; }
+.sp-file-list li { padding: 3px 0; }
+.sp-file-list a { text-decoration: none; }
+.sp-file-size { color: #999; font-size: 0.85em; }
+
+/* Form sections */
+.sp-form-section { margin-bottom: 15px; }
+
+/* Board card subtask info (inside SubtasksOnBoard table) */
+.sp-board-cell { font-size: 0.8em; color: #888; white-space: nowrap; padding: 0 4px !important; }
+.sp-board-cell i { margin-right: 3px; }
+.sp-board-due { color: #3498db; }
