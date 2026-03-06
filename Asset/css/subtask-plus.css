@@ -46,6 +46,10 @@
 /* Form sections */
 .sp-form-section { margin-bottom: 15px; }
 
+/* Edit form actions */
+.sp-edit-actions { margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee; }
+.sp-edit-actions .btn { text-decoration: none; }
+
 /* Board card subtask info (inside SubtasksOnBoard table) */
 .sp-board-cell { font-size: 0.8em; color: #888; white-space: nowrap; padding: 0 4px !important; }
 .sp-board-cell i { margin-right: 3px; }

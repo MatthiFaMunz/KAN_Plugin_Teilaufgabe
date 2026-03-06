@@ -23,4 +23,5 @@ return array(
     'Adds file attachments, description and due date to subtasks.' => 'Fügt Dateianhänge, Beschreibung und Fälligkeitsdatum zu Teilaufgaben hinzu.',
     'Save' => 'Speichern',
     'Cancel' => 'Abbrechen',
+    'Add file / drawing' => 'Datei / Zeichnung hinzufügen',
 );
