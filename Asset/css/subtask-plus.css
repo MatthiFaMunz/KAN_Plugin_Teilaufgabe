@@ -53,4 +53,11 @@
 /* Board card subtask info (inside SubtasksOnBoard table) */
 .sp-board-cell { font-size: 0.8em; color: #888; white-space: nowrap; padding: 0 4px !important; }
 .sp-board-cell i { margin-right: 3px; }
+.sp-board-cell a { color: #888; text-decoration: none; }
+.sp-board-cell a:hover { color: #333; }
 .sp-board-due { color: #3498db; }
+.sp-board-upload { opacity: 0.5; }
+.sp-board-upload:hover { opacity: 1; }
+
+/* Hint in create form */
+.sp-hint { color: #888; font-size: 0.9em; font-style: italic; margin: 5px 0; }

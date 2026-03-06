@@ -32,9 +32,13 @@ class Plugin extends Base
         );
 
         // --- Board: SubtasksOnBoard Kompatibilität (Extra-Info pro Subtask auf Karte) ---
-        $this->template->hook->attach(
+        $this->template->hook->attachCallable(
             'template:board:tooltip:subtasks:rows',
-            'SubtaskPlus:subtask_plus/board_row'
+            'SubtaskPlus:subtask_plus/board_row',
+            function ($subtask) use ($container) {
+                $task = $container['taskFinderModel']->getById($subtask['task_id']);
+                return array('task' => $task);
+            }
         );
 
         // --- Subtask Forms: extra fields ---

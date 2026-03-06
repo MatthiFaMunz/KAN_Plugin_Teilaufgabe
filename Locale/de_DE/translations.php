@@ -24,4 +24,5 @@ return array(
     'Save' => 'Speichern',
     'Cancel' => 'Abbrechen',
     'Add file / drawing' => 'Datei / Zeichnung hinzufügen',
+    'Files and drawings can be added after creating the subtask via the upload button.' => 'Dateien und Zeichnungen können nach dem Erstellen über den Upload-Button hinzugefügt werden.',
 );
